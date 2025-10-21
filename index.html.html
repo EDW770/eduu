@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>naivas suermarket</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: blue;
+
+        }
+        header{
+            background: #080808;
+            padding: 10px;
+            color: blue;
+
+        }
+        button{
+            padding: 10px 15px;
+            margin: 1opx;
+            cursor: pointer;
+            background-color: aliceblue;
+            color: #000;
+            border: navajowhite;
+
+        }
+        button:hover{
+            background-color: bisque;
+            padding: 10px 15px;
+            margin: 10px;
+            color: bisque;
+            text-decoration: dotted;
+        }
+        .products{
+            display: flex;
+            flex-wrap: center;
+            color: aqua;
+            border: #080808;
+        }
+        .products{
+            border: 10px solid #add;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            color: #080808;
+        }
+        table th td{
+            padding: 5px ;
+            margin: 3px;
+            border:6px  center;
+            background-color: blanchedalmond;
+
+        }
+        th td{
+        color: aqua;
+        padding: 6px;
+        margin: 4px;
+        border: center;
+        }
+td{
+    margin: 3px;
+    padding: 6px;
+    color: azure;
+
+    
+}
+.moving-header{
+    overflow: hidden;
+    white-space:nowrap;
+    background: #333;
+    color: #000;
+    padding: 15px;
+
+}
+.moving-header span{
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+}
+@keyframes marquee{
+    form{ transform: translateX(100%);}
+}
+to{
+    transform: translateX(-100%);}
+}
+
+images{
+    color: #add;
+}
+        
+    footer{
+        text-align: center;
+        text-decoration: dashed;
+        color: blue;
+        border-radius: 6px 2px;
+        bottom: 50%;
+    }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1> welcome to naivas supermarker</h1>
+    <p>naivas supermarket is a stock supermarket with discount and item with lower price</p>
+    <div class="moving -header">
+        <span>welcome to naivas supermarket</span>
+        <marquee behavior="scroll" direction="left"></marquee>
+         
+    </div>
+    <nav>
+        <ul>
+            <li> <a href="#" onclick="showsection ('home')">home</a></li>
+            <li><a href="#" onclick="showsection ('about us')"> about</a></li>
+            <li><a href="#" onclick="showsection('services')">services</a></li>
+            <li><a href="#" onclick="showsection('contact')">contact</a></li>
+
+        </ul>
+    </nav>
+    <section id="home" class="section active">
+        <h1 style="color: darkturquoise; background-color: darkgreen;">naivas suermarket <img src="https://media.gettyimages.com/id/172784129/photo/modern-supermarket.jpg?s=612x612&w=0&k=20&c=fjS17hOaNPcKNENZLTGJfwg0jXcE9ikArUwnJ4X4OsU=" alt="view"></h1>
+        <p >naivas super market is a connective super market where welcomes every customer or buyers  of different levels where goods and product offered are affordeable to people.You are invited or welcomed to enjoy our quality servicesthat we offer .</p>
+
+    </section>
+    <section id="about us" class="section active">
+        <h1>naivas  history and growth</h1>
+        <p>naivas supermarket ia a prominent kenyan retail chain that has been serving customers for offor three decades.ESTABLISHED in 1990 as gitwe general stores in Rongai,Nakuru county,it has grown into the country'slargest supermarket chain,boosting over100 outlets nationalwide as from November 2024</p>
+<
+    </section>
+    <section id="services" class="section active">
+        <h1 style="color: color(srgb red green rgb(0, 255, 213));background-color: burlywood;">product &services</h1>
+        <p>naivas offers a comprehenive range of products, including fresh produce, household items,electronics,clothing andmore.</p>
+<p> their in - store department features <ul>
+    <li>naivas dell:fresh prepared meal at affordable price <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Ee73Q2L_WJkanYzoTnAmiFsv2xfg5Jc4Jg&s" alt="naivas dell" style="display: flex;"></li>
+    <li>naivas soko: a variety of food and household items under one roof <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0F7fcFVcwWPo5r-84jaWcq4dglVHz-iscCA&s" alt=" naivas soko" style="display: flex;"></li>
+    <li>naivas bakery: a wide section of  fresh bakery  products <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwJx9h01X0oZU0gtpIbmCD_D6aidg_C42OIA&s" alt="naivas bakery" style="display: center;display: flex;"></li>
+    <li>naivas butchery: a verity of fresh meat rodcts <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDgxgTm78m7Nn1c_67JofHgirvmjA7mB2VJA&s" alt=" naivas butchery" style="display: flex;"></li>
+    <li>naivas electronics: arange of electronics and gardgets <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPyLI_X7ReaBJRGCf1nSoQB2c5opa9mue_6g&s" alt="naivas electronics" style="position: center; border: center; display: flex;"></li>
+    <li>naivas clothing: stylish clothing for men,women and children i.e cloths <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8laQy9t4sgjll7X3H8yHFDTIiI3M6MiTtXw&s" alt="naivas clothing" style="position: center;display: flex;"></li>
+    <li>naivas furniture:forniture for your home <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmLyvujEXqQHAZ9YVMLP4OJwUPsCSOyQExpQ&s" alt=" naivas furniture" style="position: center; display: flex;"></li>
+    <li>naivas liquor:a variety of alcoholic <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE2J2VV8kwKPBE2IhPDgK2qN51yxEWfdVjGA&s" alt="naivas liquor" style="border: center; display: flex;"></li>
+
+
+</ul></p>
+    </section>
+    <section id="contact " class="section active">
+        <h1 style="color: chartreuse; background-color: darkorchid;">naivas supermarket hq</h1>
+        <ol >
+            <li >county : nairobi</li>
+            <li> operating hours:08:00am-09:00pm</li>
+            <li>store type:food market</li>
+            <li>phone <number:0702358264></li>
+
+        
+        
+        </ol>
+
+    </section>
+<table>
+    <thead>
+        <tr>
+            <th>products</th>
+            <th>product images</th>
+            <th>price</th>
+            <th>quantity</th>
+            <th>add-to-cart</th>
+
+        </tr>
+        <tr>
+            <td>milk</td>
+            <td><img src="https://media.istockphoto.com/id/1299861518/photo/kaliningrad-russia-milk-products-on-shelves-of-supermarket.jpg?s=612x612&w=is&k=20&c=-cBVserGG32HGURclKRgAeQjyo1_dp2dzWZEPSm8FEw=" alt="naivas milk" width="150px" height="60px"></td>
+            <td>$12.5</td>
+            <td><input type="number" value="6" min="10"></td>
+            <td><button class="add -to-cart"> add</button></td>
+
+        
+        </tr>
+        <tr>
+<td>bread</td>
+<td><img src="https://media.istockphoto.com/id/1454386977/photo/bread-stacked-on-supermarket-shelves.jpg?s=612x612&w=is&k=20&c=LTU3ZSOCnE_MssJL-9ps5x4gdcbCrBxOa_6BdUiu0Nw=" alt="naivas bread" width="150px" height="60px"></td>
+<td>$0.25</td>
+<td><input type="number" value="100" max="700"></td>
+<td><button class="add to cart">add</button></td>
+
+        </tr>
+        <tr>   
+            <td>sugar</td>
+            <td><img src="https://c7.alamy.com/comp/CB43FN/bags-of-sugar-on-sale-in-tesco-supermarket-uk-CB43FN.jpg" alt="naivs packed sugar" width="150px" height="60px"></td>
+            <td>$0.45</td>
+            <td><input type="number" value="300" min="345"></td>
+            <td><button class="add to cart">add</button></td>
+            </tr>
+        
+        <tr>
+            <td>fats</td>
+                
+                
+                
+                
+     <td><img src="https://www.shutterstock.com/shutterstock/photos/2475009123/display_1500/stock-photo-first-price-gift-basket-filled-with-variety-candy-snacks-assortment-on-white-background-norway-2475009123.jpg" alt="naivas fats" width="150px" height="60px"></td>
+           
+                
+                
+            <td>$0.45</td>
+            <td><input type="number" value="300" min="345"></td>
+            <td><button class="add to cart">add</button></td>
+            
+    
+        </tr>
+        <tr>
+            <td>fats and oil</td>
+            <td><img src="https://www.shutterstock.com/image-photo/spencer-wisconsin-usa-april-30-600nw-2162800171.jpg" alt="naivas fats and oil" width="150px" height="60px"></td>
+            <td>$0.45</td>
+            <td><input type="number" value="300" min="345"></td>
+            <td><button class="add to cart">add</button></td>
+            
+        
+        </tr>
+<tr>
+    <td>salt2</td>
+    <td><img src="https://thumbs.dreamstime.com/b/salt-shelves-supermarket-variety-salt-shelves-supermarket-100911228.jpg" alt="naivas salt" width="150px" height="60px"></td>
+    <td>$0.35</td>
+    <td><input type="number" value="600" min="345"></td>
+    <td><button class="add to cart">add</button></td>
+    </tr>
+<tr>
+    <td>flour</td>
+    <td><img src="https://www.shutterstock.com/image-photo/wellington-new-zealand-08072024-edmonds-260nw-2502277185.jpg" alt="naivas flour" width="150px" height="60px"></td>
+    <td>$10</td>
+    <td><input type="number" value="45" max="43"></td>
+    <td><button class="add to cart">add</button></td>
+</tr>
+    </thead>
+</table>
+
+
+<nav>
+    <a href="INDEXED. HTML" style="color: chartreuse;background-color: cyan;">home</a>
+    <a href="product html" style="color: chartreuse;background-color: chartreuse;"> products</a>
+    <a href="carts.html" style="color: chartreuse;background-color: darkgreen;">carts</a>
+    <a href="admin.html" style="color: chartreuse; background-color: darkgreen;">owner pannel</a>
+    <a href="customer.html" style="color: chartreuse;background-color: darkgreen;">customer</a>
+    
+
+</nav>
+</header>
+
+<section class="banner">
+    <h2>welcome to our supermarket</h2>
+    <button onclick="window.location.href='product.html"> shop now</button>
+
+    
+
+    <form id="naivas supermarket" style="color: chartreuse;"></form>
+    <label for="name of product"> name of product</label>
+    <input type="name of product" id=" product"></body>
+<label for="purchase method"> purchase method</label>
+r    <input type="purchase method" name="purchase method">
+<label for="product invoice" >product invoice</label>o
+<input type="tproduct invoice" id="product invoice" name="product invoice">
+<label for="customer payment"> customer payment</label>
+<input type="customer payment" id="customer payment" name="customer payment">
+<label for="message &customer name"> message&customer name</label>
+<input type="message&customer name" id="message& customer name" name="message &customer name">
+<button> submit</button>
+</section>
+<h3> invoice generation</h3>
+<div class="container">
+    <div class="section">
+        <h4> invoice  details</h4>
+        <table>
+            
+            
+            <tr> 
+                <td><label for="customers">customers</label></td>
+                <td><input type="customers" id="customers" name="customer"></td>
+
+            </tr>
+            <tr>
+                <td><label for="INVNO">INVNO</label></td>
+                <td><input type="INVNO" id="INVNO" name="INVNO"></td>
+            </tr>
+            <tr>
+                <td><label for="address">address</label</td>
+                <td> <input type="address" id="address" name="address"></td>
+            </tr>
+            <tr>
+                <td><label for="sales reports">sales reports</label></td>
+                <td><input type="sales report" id="sales reports" name="sales reports"></td>
+
+            </tr>
+            <tr>
+                <td><label for="billing check out">billing check out</label></td>
+                <td><input type="billing check out" id="billing check out" name="billing check out"></td>
+            </tr>
+            
+        </table>
+    </div>
+
+</div>
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded"),function(){
+        let cartbuttons=
+        document.querySelectorAll(".add-to-cart");
+        let totalpriceElement=
+        document.querySelector("# total- price");
+        let totalitemELement=
+        document.querySelector("#tota-item");
+        let totalitem=0<td>salt</td>
+        <td><img src="" alt=""></td>
+        <td>$0.45</td>
+        <td><input type="number" va
+        let total=0
+        cartbuttons.forEach(botton=>{
+           button.addEventListener("click",function(event){
+            let productelement=
+            event.target.closest(".product");
+            let price=
+            parseFloat(productelement.querySelector("p").textcontent.replace("price:$"""));
+            let quantity=
+            parseInt(productelement.querySelector(".quantity").value);
+            totalitems+=quantity;
+            totalprice+=price+quantity;
+            totalitemELement.textContent=totalitems
+            totalpriceElement.textContent=totalprice.toFixed(2);
+            alert("product added to cart!");
+           });
+         
+        });
+    });
+
+
+</script>
+<script>
+    //text to scroll in  the title
+    let=" naivas supermarket"
+    let=0;
+    //colors to cycle through
+    let colors=["red","blue","green","purple","orange"];
+    let colorindex=0;
+    function scrolltitle(){
+        //update the document title with a miving effect
+        document.title=
+        text.substring(index)+""+
+        text.substring(0,index);
+        //increment index for scrolling effect
+        index=(index+1)%text.lenght;
+        //change color dynamically
+        document.querySelector("link[rel='icon']")?.
+        remove();
+        let color=colors[colorindex];
+let favicom=
+document.createElement("link");
+favicom.rel="icon"
+favicom.href='data:image/svg+xml,<SVG
+xmlns="https://wwww.w3.org/2000/svg"
+viewbox="0 0 100 100"><text y="50^"
+font-size="80"fill="${color}">.</text></SVG>
+
+document.head.appendchild(favicom);
+
+//cycle through colors
+colorindex =(colorindex +1)%
+color.lenght;
+
+
+    }
+    //set interval for scrolling and color change
+    setInterval(scrolltitle,300);
+    </script>
+<footer> @zero corruption  and business integrity with naivas supermarket</footer>
+
+</body>
+
+</html>
